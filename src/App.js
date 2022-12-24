@@ -25,6 +25,13 @@ function App() {
         <a rel="noreferrer" target="_blank" href="https://www.etsy.com/uk/shop/vosiejewellery">
           <img className="logo" alt="vosie logo" src={logo} />
         </a>
+        <div className="text">
+          Dear Marie, <br />
+
+          You are now the owner of vosiejewellery.com <br />
+
+          Merry Christmas! - Henry
+        </div>
         <div className="carousel">
           <Carousel infiniteLoop autoPlay interval="5000">
             <div>
