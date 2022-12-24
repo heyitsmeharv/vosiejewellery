@@ -15,12 +15,12 @@
 
 .App-header {
   /* background-color: #282c34; */
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: #282c34;
 }
 
@@ -37,3 +37,19 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel {
+  width: 500px;
+}
+
+/* .marieWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.marie {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+} */
