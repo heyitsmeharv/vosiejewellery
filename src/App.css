@@ -42,6 +42,22 @@
   width: 500px;
 }
 
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .logo {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .carousel {
+    width: 350px;
+  }
+}
+
 /* .marieWrapper {
   position: absolute;
   top: 0;

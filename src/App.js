@@ -26,7 +26,7 @@ function App() {
           <img className="logo" alt="vosie logo" src={logo} />
         </a>
         <div className="carousel">
-          <Carousel>
+          <Carousel infiniteLoop autoPlay interval="5000">
             <div>
               <img alt="Silver Rectangle Stud / Thread Through Earrings" src={earrings} />
               <p className="legend">Silver Rectangle Stud / Thread Through Earrings</p>
